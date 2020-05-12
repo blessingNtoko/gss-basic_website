@@ -42,7 +42,7 @@ body {
 }
 
 .navbar h1 a:hover {
-    color: rgb(63, 63, 196);
+    color: skyblue;
 }
 
 .navbar ul {
@@ -64,7 +64,7 @@ body {
 }
 
 .navbar ul li a:hover {
-    color: rgb(63, 63, 196);
+    color: skyblue;
 }
 
 section {
@@ -84,7 +84,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: rgb(63, 63, 196);
+    color: rgba(0, 0, 255);
 }
 
 #home h1 {
