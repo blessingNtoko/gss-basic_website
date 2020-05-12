@@ -65,9 +65,3 @@ section {
 section #home {
     background: url(assets/images/temp5.jpg) no-repeat center center/cover;
 }
-
-#about img {
-    text-align: center;
-    width: 40rem;
-    height: 30rem;
-}
