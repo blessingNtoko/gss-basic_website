@@ -79,7 +79,7 @@ section {
 }
 
 #home {
-    background-image: url(assets/images/temp5.jpg);
+    background-image: url(assets/images/tempy4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,11 +115,11 @@ section {
 }
 
 .fixedScroll1 {
-    background-image: url(assets/images/temp3.jpg);
+    background-image: url(assets/images/tempy5.jpg);
     min-height: 400px;
 }
 
 .fixedScroll2 {
-    background-image: url(assets/images/temp4.jpg);
+    background-image: url(assets/images/tempy6.jpg);
     min-height: 400px;
 }
