@@ -96,13 +96,13 @@ section {
 }
 
 #about {
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 #about img {
     text-align: center;
-    width: 35rem;
-    height: 25rem;
+    width: 40rem;
+    height: 30rem;
 }
 
 .fixedScroll {
