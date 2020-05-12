@@ -85,10 +85,12 @@ section {
     background-size: cover;
     background-attachment: fixed;
     color: white;
+    filter: blur(2px);
 }
 
 #home h1 {
     font-size: 45pt;
+    filter: blur(0px) !important;
 }
 
 #home p {

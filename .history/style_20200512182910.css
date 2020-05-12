@@ -84,15 +84,6 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: white;
-}
-
-#home h1 {
-    font-size: 45pt;
-}
-
-#home p {
-    font-size: 20pt;
 }
 
 #about img {

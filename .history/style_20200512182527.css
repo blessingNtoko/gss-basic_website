@@ -32,17 +32,6 @@ body {
 .navbar h1 {
     color: white;
     font-size: 25pt;
-    margin-left: 1rem;
-}
-
-.navbar h1 a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #f4f4f4;
-}
-
-.navbar h1 a:hover {
-    color: skyblue;
 }
 
 .navbar ul {
@@ -84,15 +73,6 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: white;
-}
-
-#home h1 {
-    font-size: 45pt;
-}
-
-#home p {
-    font-size: 20pt;
 }
 
 #about img {
