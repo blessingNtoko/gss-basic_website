@@ -123,10 +123,3 @@ section {
     background-image: url(assets/images/tempy6.jpg);
     min-height: 400px;
 }
-
-#about .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 3rem;
-}
