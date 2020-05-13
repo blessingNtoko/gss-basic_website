@@ -215,7 +215,6 @@ section {
 
 #contact .row h1 {
     font-size: 80pt;
-    text-decoration: underline;
 }
 
 #contact .row span {
@@ -224,10 +223,4 @@ section {
 
 .details ul li {
     list-style: none;
-}
-
-footer {
-    background-color: black;
-    width: 100%;
-    height: 10rem;
 }

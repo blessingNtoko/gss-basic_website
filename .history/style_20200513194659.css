@@ -183,25 +183,16 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
 }
 
 #contact .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 100%;
 }
 
 #contact .col {
     /* border: 1px solid black; */
-    /* text-align: center; */
-    /* display: flex;
-    flex-direction: column; */
-    /* align-items: center; */
+    text-align: center;
 }
 
 #contact .col1 {
@@ -215,7 +206,6 @@ section {
 
 #contact .row h1 {
     font-size: 80pt;
-    text-decoration: underline;
 }
 
 #contact .row span {
@@ -224,10 +214,4 @@ section {
 
 .details ul li {
     list-style: none;
-}
-
-footer {
-    background-color: black;
-    width: 100%;
-    height: 10rem;
 }
