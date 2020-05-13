@@ -102,6 +102,10 @@ section {
     font-size: 20pt;
 }
 
+#about {
+    margin-top: 3rem;
+}
+
 #about img {
     text-align: center;
     width: 35rem;
@@ -177,7 +181,7 @@ section {
     height: 25rem;
     line-height: 1rem;
     margin-top: 1.5rem;
-    opacity: .7;
+    opacity: .8;
     transition: all .5s;
 }
 
@@ -255,5 +259,5 @@ footer .info {
 }
 
 #made {
-    color: rgb(63, 63, 196);
+    color: rgb(143, 10, 10);
 }

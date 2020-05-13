@@ -102,6 +102,10 @@ section {
     font-size: 20pt;
 }
 
+#about {
+    margin-top: 3rem;
+}
+
 #about img {
     text-align: center;
     width: 35rem;
@@ -125,14 +129,14 @@ section {
 }
 
 #about .col .about1 {
-    border-left: 5px solid white;
+    border-left: 5px solid black;
     margin-left: 17rem;
     padding-left: 2rem;
     text-align: left;
 }
 
 #about .col .about2 {
-    border-right: 5px solid white;
+    border-right: 5px solid black;
     margin-right: 17rem;
     padding-right: 2rem;
     text-align: right;
@@ -161,7 +165,7 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* margin-top: 3rem; */
+    margin-top: 3rem;
 }
 
 #work .row {
@@ -177,7 +181,7 @@ section {
     height: 25rem;
     line-height: 1rem;
     margin-top: 1.5rem;
-    opacity: .7;
+    opacity: .8;
     transition: all .5s;
 }
 
@@ -238,10 +242,10 @@ ul li {
 }
 
 footer {
-    background-color: white;
+    background-color: black;
     width: 100%;
     height: 10rem;
-    color: black;
+    color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -255,5 +259,5 @@ footer .info {
 }
 
 #made {
-    color: rgb(63, 63, 196);
+    color: rgb(143, 10, 10);
 }
