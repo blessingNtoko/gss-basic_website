@@ -186,8 +186,7 @@ section {
 }
 
 #contact .col {
-    border: 1px solid black;
-    text-align: center;
+    /* border: 1px solid black; */
 }
 
 #contact .row h1 {

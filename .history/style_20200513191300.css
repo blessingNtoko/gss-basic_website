@@ -94,6 +94,7 @@ section {
 #home h1 {
     font-size: 50pt;
     text-decoration: underline;
+    transition: 1s ease-in-out;
 }
 
 #home p {
@@ -170,30 +171,8 @@ section {
     height: 25rem;
     line-height: 1rem;
     margin-top: 1.5rem;
-    opacity: .8;
-    transition: all .5s;
 }
 
 #work .row img:hover {
-    opacity: 1;
-}
-
-#contact .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#contact .col {
-    border: 1px solid black;
-    text-align: center;
-}
-
-#contact .row h1 {
-    font-size: 80pt;
-}
-
-#contact .row span {
-    font-size: 30pt;
+    transform: scale(9px);
 }

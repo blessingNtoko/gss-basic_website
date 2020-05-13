@@ -91,6 +91,11 @@ section {
     color: #f4f4f4;
 }
 
+#home .contain {
+    /* background-color: rgb(17, 16, 16); */
+    /* opacity: .8; */
+}
+
 #home h1 {
     font-size: 50pt;
     text-decoration: underline;
@@ -112,23 +117,9 @@ section {
 
 #about .row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-}
-
-#about .col p {
-    width: 50rem;
-}
-
-#about .col .about1 {
-    border-left: 5px solid black;
-    margin-left: 15rem;
-}
-
-#about .col .about2 {
-    padding: 2rem auto;
-    border-right: 5px solid black;
-    margin-right: 15rem;
 }
 
 .fixedScroll {
@@ -169,31 +160,4 @@ section {
     width: 20rem;
     height: 25rem;
     line-height: 1rem;
-    margin-top: 1.5rem;
-    opacity: .8;
-    transition: all .5s;
-}
-
-#work .row img:hover {
-    opacity: 1;
-}
-
-#contact .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#contact .col {
-    border: 1px solid black;
-    text-align: center;
-}
-
-#contact .row h1 {
-    font-size: 80pt;
-}
-
-#contact .row span {
-    font-size: 30pt;
 }

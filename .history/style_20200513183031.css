@@ -126,8 +126,9 @@ section {
 }
 
 #about .col .about2 {
-    padding: 2rem auto;
+    margin: 1rem auto;
     border-right: 5px solid black;
+    border-bottom: 5px solid black;
     margin-right: 15rem;
 }
 
@@ -169,31 +170,4 @@ section {
     width: 20rem;
     height: 25rem;
     line-height: 1rem;
-    margin-top: 1.5rem;
-    opacity: .8;
-    transition: all .5s;
-}
-
-#work .row img:hover {
-    opacity: 1;
-}
-
-#contact .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#contact .col {
-    border: 1px solid black;
-    text-align: center;
-}
-
-#contact .row h1 {
-    font-size: 80pt;
-}
-
-#contact .row span {
-    font-size: 30pt;
 }

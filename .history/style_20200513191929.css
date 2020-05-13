@@ -184,16 +184,3 @@ section {
     justify-content: center;
     align-items: center;
 }
-
-#contact .col {
-    border: 1px solid black;
-    text-align: center;
-}
-
-#contact .row h1 {
-    font-size: 80pt;
-}
-
-#contact .row span {
-    font-size: 30pt;
-}
