@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.allContain {
+    width: 100%;
+    height: 100%;
+    /* CSS smooth scroll properties */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: black;
+    opacity: .7;
+}
+
+.navbar h1 {
+    color: white;
+    font-size: 25pt;
+    margin-left: 1rem;
+}
+
+.navbar h1 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+
+.navbar h1 a:hover {
+    color: rgb(63, 63, 196);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    /* text-align: right; */
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+
+.navbar ul li a:hover {
+    color: rgb(63, 63, 196);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+#home {
+    background-image: url(assets/images/tempy4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f4f4f4;
+}
+
+#home h1 {
+    font-size: 50pt;
+    text-decoration: underline;
+}
+
+#home p {
+    font-size: 20pt;
+}
+
+#about {
+    margin-top: 3rem;
+}
+
+#about img {
+    text-align: center;
+    width: 35rem;
+    height: 25rem;
+}
+
+#about .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#about .col p {
+    width: 50rem;
+}
+
+#about .col .about1 {
+    border-left: 5px solid black;
+    margin-left: 15rem;
+}
+
+#about .col .about2 {
+    border-right: 5px solid black;
+    margin-right: 15rem;
+}
+
+.fixedScroll {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fixedScroll1 {
+    background-image: url(assets/images/tempy5.jpg);
+    min-height: 400px;
+}
+
+.fixedScroll2 {
+    background-image: url(assets/images/tempy6.jpg);
+    min-height: 400px;
+}
+
+#about .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#work .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#work .row img {
+    width: 20rem;
+    height: 25rem;
+    line-height: 1rem;
+    margin-top: 1.5rem;
+    opacity: .8;
+    transition: all .5s;
+}
+
+#work .row img:hover {
+    opacity: 1;
+}
+
+#contact .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#contact .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#contact .col {
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+}
+
+#contact .col1 {
+    text-align: center;
+}
+
+#contact .col2 {
+    /* border: 1px solid black; */
+    text-align: left;
+}
+
+#contact .row h1 {
+    font-size: 80pt;
+    text-decoration: underline;
+}
+
+#contact .row span {
+    font-size: 30pt;
+}
+
+.details {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+.details2 {
+    border-left: 2px solid black;
+    margin-left: 2rem;
+    padding-left: 2rem;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 10rem;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
