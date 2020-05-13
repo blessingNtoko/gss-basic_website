@@ -222,20 +222,8 @@ section {
     font-size: 30pt;
 }
 
-.details {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 .details ul li {
     list-style: none;
-}
-
-.details2 {
-    border-left: 2px solid black;
-    margin-left: 2rem;
-    padding-left: 2rem;
 }
 
 footer {
@@ -244,7 +232,7 @@ footer {
     height: 10rem;
     color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -252,5 +240,4 @@ footer .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: left;
 }

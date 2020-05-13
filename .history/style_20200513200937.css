@@ -232,12 +232,6 @@ section {
     list-style: none;
 }
 
-.details2 {
-    border-left: 2px solid black;
-    margin-left: 2rem;
-    padding-left: 2rem;
-}
-
 footer {
     background-color: black;
     width: 100%;
